@@ -1,0 +1,9 @@
+2026-02-09 22:30:19,379 | INFO     | test | Logger initialized
+2026-02-09 22:30:23,164 | INFO     | test_login | Starting test: test_invalid_login
+2026-02-09 22:30:23,927 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-09 22:30:23,928 | INFO     | pages.login_page | Starting login process.
+2026-02-09 22:30:24,073 | INFO     | pages.login_page | Username entered successfully.
+2026-02-09 22:30:24,084 | INFO     | pages.login_page | Entering password.
+2026-02-09 22:30:24,180 | INFO     | pages.login_page | Password entered successfully.
+2026-02-09 22:30:24,181 | INFO     | pages.login_page | Clicking the login button.
+2026-02-09 22:30:24,251 | INFO     | pages.login_page | Login button clicked successfully.

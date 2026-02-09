@@ -1,0 +1,9 @@
+2026-02-09 20:41:02,350 | INFO     | test | Logger initialized
+2026-02-09 20:41:05,735 | INFO     | test_login | Starting test: test_invalid_login
+2026-02-09 20:41:06,333 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-09 20:41:06,334 | INFO     | pages.login_page | Starting login process.
+2026-02-09 20:41:06,610 | INFO     | pages.login_page | Username entered successfully.
+2026-02-09 20:41:06,622 | INFO     | pages.login_page | Entering password.
+2026-02-09 20:41:06,705 | INFO     | pages.login_page | Password entered successfully.
+2026-02-09 20:41:06,706 | INFO     | pages.login_page | Clicking the login button.
+2026-02-09 20:41:17,092 | ERROR    | pages.login_page | Login failed due to timeout while waiting for elements.

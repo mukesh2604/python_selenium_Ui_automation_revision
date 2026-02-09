@@ -1,0 +1,11 @@
+2026-02-09 22:42:21,417 | INFO     | test | Logger initialized
+2026-02-09 22:42:25,648 | INFO     | test_login | Starting test: test_invalid_login
+2026-02-09 22:42:26,608 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-09 22:42:26,610 | INFO     | pages.login_page | Starting login process.
+2026-02-09 22:42:26,819 | INFO     | pages.login_page | Username entered successfully.
+2026-02-09 22:42:26,862 | INFO     | pages.login_page | Entering password.
+2026-02-09 22:42:26,970 | INFO     | pages.login_page | Password entered successfully.
+2026-02-09 22:42:26,971 | INFO     | pages.login_page | Clicking the login button.
+2026-02-09 22:42:27,081 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-09 22:42:27,122 | INFO     | test_login | Actual error message: Epic sadface: Username and password do not match any user in this service
+2026-02-09 22:42:27,123 | INFO     | test_login | Invalid login correctly showed expected error message

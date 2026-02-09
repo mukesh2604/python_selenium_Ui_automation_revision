@@ -1,0 +1,22 @@
+2026-02-09 22:13:19,961 | INFO     | test | Logger initialized
+2026-02-09 22:13:24,694 | INFO     | test_login | Starting test: test_valid_login
+2026-02-09 22:13:25,593 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-09 22:13:25,596 | INFO     | pages.login_page | Starting login process.
+2026-02-09 22:13:25,975 | INFO     | pages.login_page | Username entered successfully.
+2026-02-09 22:13:26,028 | INFO     | pages.login_page | Entering password.
+2026-02-09 22:13:26,439 | INFO     | pages.login_page | Password entered successfully.
+2026-02-09 22:13:26,440 | INFO     | pages.login_page | Clicking the login button.
+2026-02-09 22:13:26,788 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-09 22:13:26,809 | INFO     | pages.login_page | Checking if login was successful.
+2026-02-09 22:13:29,876 | INFO     | pages.login_page | No alert detected, checking dashboard element.
+2026-02-09 22:13:29,886 | INFO     | pages.login_page | Login successful
+2026-02-09 22:13:29,887 | INFO     | test_login | Login successful with valid credentials.
+2026-02-09 22:13:29,889 | INFO     | test_login | Starting test: test_invalid_login
+2026-02-09 22:13:29,961 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-09 22:13:29,961 | INFO     | pages.login_page | Starting login process.
+2026-02-09 22:13:30,039 | INFO     | pages.login_page | Username entered successfully.
+2026-02-09 22:13:30,045 | INFO     | pages.login_page | Entering password.
+2026-02-09 22:13:30,107 | INFO     | pages.login_page | Password entered successfully.
+2026-02-09 22:13:30,108 | INFO     | pages.login_page | Clicking the login button.
+2026-02-09 22:13:30,167 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-09 22:13:30,167 | INFO     | test_login | Completed test: test_invalid_login
