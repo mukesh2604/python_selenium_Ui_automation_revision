@@ -1,0 +1,56 @@
+2026-02-18 16:37:56,781 | INFO     | test | Logger initialized
+2026-02-18 16:38:00,157 | INFO     | test_login | Starting test: test_valid_login
+2026-02-18 16:38:00,800 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-18 16:38:00,803 | INFO     | pages.login_page | Starting login process.
+2026-02-18 16:38:01,085 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 16:38:01,122 | INFO     | pages.login_page | Entering password.
+2026-02-18 16:38:01,240 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 16:38:01,241 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 16:38:01,395 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 16:38:01,400 | INFO     | pages.login_page | Checking if login was successful.
+2026-02-18 16:38:04,433 | INFO     | pages.login_page | No alert detected, checking dashboard element.
+2026-02-18 16:38:04,449 | INFO     | pages.login_page | Login successful
+2026-02-18 16:38:04,449 | INFO     | test_login | Login successful with valid credentials.
+2026-02-18 16:38:04,454 | INFO     | test_login | Starting test: test_invalid_login
+2026-02-18 16:38:04,530 | INFO     | test_login | Navigated to https://www.saucedemo.com
+2026-02-18 16:38:04,530 | INFO     | pages.login_page | Starting login process.
+2026-02-18 16:38:04,641 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 16:38:04,649 | INFO     | pages.login_page | Entering password.
+2026-02-18 16:38:04,716 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 16:38:04,716 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 16:38:04,772 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 16:38:04,793 | INFO     | test_login | Actual error message: Epic sadface: Username and password do not match any user in this service
+2026-02-18 16:38:04,793 | INFO     | test_login | Invalid login correctly showed expected error message
+2026-02-18 16:38:04,795 | INFO     | test_login | starting test: test_invalid_username
+2026-02-18 16:38:04,829 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 16:38:04,830 | INFO     | pages.login_page | Starting login process.
+2026-02-18 16:38:04,913 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 16:38:04,919 | INFO     | pages.login_page | Entering password.
+2026-02-18 16:38:04,992 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 16:38:04,992 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 16:38:05,046 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 16:38:05,059 | INFO     | test_login | Actual error message: Epic sadface: Username is required
+2026-02-18 16:38:05,059 | INFO     | test_login | Invalid username correctly showed expected error message
+2026-02-18 16:38:05,061 | INFO     | test_login | starting test: test_invalid_password
+2026-02-18 16:38:05,094 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 16:38:05,097 | INFO     | pages.login_page | Starting login process.
+2026-02-18 16:38:05,187 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 16:38:05,193 | INFO     | pages.login_page | Entering password.
+2026-02-18 16:38:05,268 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 16:38:05,268 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 16:38:05,318 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 16:38:05,332 | INFO     | test_login | Actual error message: Epic sadface: Password is required
+2026-02-18 16:38:05,333 | INFO     | test_login | Invalid password correctly showed expected error message
+2026-02-18 16:38:05,336 | INFO     | test_login | starting test: test_blank_credentials
+2026-02-18 16:38:05,370 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 16:38:05,370 | INFO     | pages.login_page | Starting login process.
+2026-02-18 16:38:05,468 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 16:38:05,474 | INFO     | pages.login_page | Entering password.
+2026-02-18 16:38:05,520 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 16:38:05,520 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 16:38:05,568 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 16:38:05,583 | INFO     | test_login | Actual error message: Epic sadface: Username is required
+2026-02-18 16:38:05,584 | INFO     | test_login | Blank credentials correctly showed expected error message
+2026-02-18 16:38:05,586 | INFO     | test_login | starting test: test_login_btn_enabled
+2026-02-18 16:38:05,624 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 16:38:05,680 | INFO     | test_login | Login button is enabled before username and password are entered

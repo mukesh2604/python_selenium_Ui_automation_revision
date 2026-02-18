@@ -5,6 +5,8 @@ from exceptions.dashboard_exceptions import dashboard_exception
 from selenium.common.exceptions import TimeoutException
 from Utils.logger import get_logger
 from pages.base_page import BasePage
+import allure
+
 
 class LoginPage(BasePage):
     """Page Object Model for the Login Page of the application."""
@@ -25,6 +27,8 @@ class LoginPage(BasePage):
         self.dashboard_element = (By.ID, "inventory_container")
         self.error_message_locator = (By.CSS_SELECTOR, "h3[data-test='error']")
 
+    allure.step("Entering username: {username}")
+
     def enter_username(self, username):
         """
         Enters the username into the username input field.
@@ -34,6 +38,8 @@ class LoginPage(BasePage):
         username_field = wait_for_visible(self.driver, self.username_input)
         username_field.clear()
         username_field.send_keys(username)
+
+    allure.step("Entering password: {password}")
 
     def enter_password(self, password):
         """
@@ -46,6 +52,8 @@ class LoginPage(BasePage):
         password_field.clear()
         password_field.send_keys(password)
 
+    allure.step("Clicking login button")
+
     def click_login(self):
         """
         Clicks the login button to submit the login form.
@@ -54,6 +62,7 @@ class LoginPage(BasePage):
         login_btn = wait_for_visible(self.driver, self.login_button)
         login_btn.click()
 
+    allure.step("Performing login with username: {username} and password: {password}")
     def login(self, username, password):
         """
         Performs the complete login action by entering the username,
@@ -67,7 +76,6 @@ class LoginPage(BasePage):
         self.logger.info("Starting login process.")
         try:
 
-
             self.enter_username(username)
             self.logger.info("Username entered successfully.")
             self.enter_password(password)
@@ -78,8 +86,7 @@ class LoginPage(BasePage):
             self.logger.error("Login failed due to timeout while waiting for elements.")
             raise LoginFailedException("Login failed due to timeout while waiting for elements.")
 
-
-
+    allure.step("Checking if login was successful")
     def is_login_successful(self):
         """
         Checks if login succeeded by checking alert OR dashboard element
@@ -95,7 +102,6 @@ class LoginPage(BasePage):
 
             self.logger.info("No alert detected, checking dashboard element.")
 
-
             wait_for_visible(self.driver, self.dashboard_element)
 
             self.logger.info("Login successful")
@@ -105,8 +111,7 @@ class LoginPage(BasePage):
             self.logger.error("Dashboard not found after login")
             raise dashboard_exception("Login failed: dashboard not visible")
 
-
-
+    allure.step("Retrieving error message after failed login attempt")
     def get_error_message(self):
         """
         Retrieves the error message displayed on the login page after a failed login attempt.
@@ -120,7 +125,3 @@ class LoginPage(BasePage):
         except TimeoutException:
             self.logger.error("Error message not found after failed login attempt.")
             return ""  # Return empty string if no error message is found
-
-
-
-

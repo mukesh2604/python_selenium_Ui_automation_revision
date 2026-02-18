@@ -1,0 +1,11 @@
+2026-02-18 14:27:33,666 | INFO     | test | Logger initialized
+2026-02-18 14:27:39,080 | INFO     | test_login | starting test: test_invalid_password
+2026-02-18 14:27:40,253 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 14:27:40,255 | INFO     | pages.login_page | Starting login process.
+2026-02-18 14:27:40,520 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 14:27:40,537 | INFO     | pages.login_page | Entering password.
+2026-02-18 14:27:40,636 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 14:27:40,637 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 14:27:40,765 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 14:27:40,810 | INFO     | test_login | Actual error message: Epic sadface: Password is required
+2026-02-18 14:27:40,811 | INFO     | test_login | Invalid password correctly showed expected error message

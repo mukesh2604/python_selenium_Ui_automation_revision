@@ -1,0 +1,11 @@
+2026-02-18 13:59:27,079 | INFO     | test | Logger initialized
+2026-02-18 13:59:31,306 | INFO     | test_login | starting test: test_invalid_username
+2026-02-18 13:59:32,960 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-02-18 13:59:32,962 | INFO     | pages.login_page | Starting login process.
+2026-02-18 13:59:33,124 | INFO     | pages.login_page | Username entered successfully.
+2026-02-18 13:59:33,143 | INFO     | pages.login_page | Entering password.
+2026-02-18 13:59:33,373 | INFO     | pages.login_page | Password entered successfully.
+2026-02-18 13:59:33,374 | INFO     | pages.login_page | Clicking the login button.
+2026-02-18 13:59:33,549 | INFO     | pages.login_page | Login button clicked successfully.
+2026-02-18 13:59:33,594 | INFO     | test_login | Actual error message: Epic sadface: Username is required
+2026-02-18 13:59:33,594 | INFO     | test_login | Invalid username correctly showed expected error message

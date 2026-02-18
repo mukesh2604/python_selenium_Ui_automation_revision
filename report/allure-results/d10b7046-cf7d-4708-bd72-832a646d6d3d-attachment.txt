@@ -1,0 +1,3 @@
+[32mINFO    [0m test_login:test_login.py:125 starting test: test_login_btn_enabled
+[32mINFO    [0m test_login:test_login.py:127 navigated to https://www.saucedemo.com
+[32mINFO    [0m test_login:test_login.py:135 Login button is enabled before username and password are entered

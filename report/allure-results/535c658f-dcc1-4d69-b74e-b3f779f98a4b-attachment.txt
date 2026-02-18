@@ -1,0 +1,12 @@
+[32mINFO    [0m test_login:test_login.py:29 Starting test: test_valid_login
+[32mINFO    [0m test_login:test_login.py:31 Navigated to https://www.saucedemo.com
+[32mINFO    [0m pages.login_page:login_page.py:76 Starting login process.
+[32mINFO    [0m pages.login_page:login_page.py:80 Username entered successfully.
+[32mINFO    [0m pages.login_page:login_page.py:51 Entering password.
+[32mINFO    [0m pages.login_page:login_page.py:82 Password entered successfully.
+[32mINFO    [0m pages.login_page:login_page.py:61 Clicking the login button.
+[32mINFO    [0m pages.login_page:login_page.py:84 Login button clicked successfully.
+[32mINFO    [0m pages.login_page:login_page.py:94 Checking if login was successful.
+[32mINFO    [0m pages.login_page:login_page.py:103 No alert detected, checking dashboard element.
+[32mINFO    [0m pages.login_page:login_page.py:107 Login successful
+[32mINFO    [0m test_login:test_login.py:41 Login successful with valid credentials.

@@ -1,0 +1,10 @@
+[32mINFO    [0m test_login:test_login.py:107 starting test: test_blank_credentials
+[32mINFO    [0m test_login:test_login.py:109 navigated to https://www.saucedemo.com
+[32mINFO    [0m pages.login_page:login_page.py:76 Starting login process.
+[32mINFO    [0m pages.login_page:login_page.py:80 Username entered successfully.
+[32mINFO    [0m pages.login_page:login_page.py:51 Entering password.
+[32mINFO    [0m pages.login_page:login_page.py:82 Password entered successfully.
+[32mINFO    [0m pages.login_page:login_page.py:61 Clicking the login button.
+[32mINFO    [0m pages.login_page:login_page.py:84 Login button clicked successfully.
+[32mINFO    [0m test_login:test_login.py:115 Actual error message: Epic sadface: Username is required
+[32mINFO    [0m test_login:test_login.py:118 Blank credentials correctly showed expected error message

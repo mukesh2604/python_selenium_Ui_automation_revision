@@ -1,4 +1,6 @@
 pytest
 selenium
+allure-pytest
+
 
 
