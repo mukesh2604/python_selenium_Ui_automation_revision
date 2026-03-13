@@ -1,0 +1,4 @@
+2026-03-09 13:09:28,460 | INFO     | test | Logger initialized
+2026-03-09 13:09:36,471 | INFO     | test_login | starting test: test_login_btn_enabled
+2026-03-09 13:09:37,304 | INFO     | test_login | navigated to https://www.saucedemo.com
+2026-03-09 13:09:37,654 | INFO     | test_login | Login button is enabled before username and password are entered
